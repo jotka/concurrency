@@ -15,13 +15,14 @@ import java.util.concurrent.TimeUnit;
 public class TaskPortion implements Runnable {
     private final CountDownLatch latch;
     private static int counter = 0;
-    private final static int id = counter++;
+    private int id;
     private static Random rand = new Random(47);
     private final Logger logger;
 
     public TaskPortion(CountDownLatch latch, Logger logger) {
         this.logger = logger;
         this.latch = latch;
+        this.id = counter++;
     }
 
     @Override
@@ -42,6 +43,6 @@ public class TaskPortion implements Runnable {
 
     @Override
     public String toString() {
-        return String.format("WaitingTask  %1$-3d", id);
+        return String.format("portion %1$-3d", id);
     }
 }

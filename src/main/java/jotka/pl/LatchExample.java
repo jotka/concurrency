@@ -34,6 +34,8 @@ public class LatchExample {
         for (int i = 0; i < SIZE; i++) {
             executorService.execute(new TaskPortion(latch, logger));
         }
+        logger.info("finished all");
+        executorService.shutdown();
 
 
     }

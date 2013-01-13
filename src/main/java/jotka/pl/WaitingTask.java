@@ -13,19 +13,20 @@ import java.util.concurrent.CountDownLatch;
 public class WaitingTask implements Runnable {
     private final CountDownLatch latch;
     private static int counter = 0;
-    private static int id = counter++;
+    private final int id;
     private final Logger logger;
 
     public WaitingTask(CountDownLatch latch, Logger logger) {
         this.logger = logger;
         this.latch = latch;
+        this.id = counter++;
     }
 
     @Override
     public void run() {
         try {
             latch.await();
-            logger.info("after latch.await() in " + this);
+            logger.info("after latch wait in " + this);
         } catch (InterruptedException e) {
             logger.error("WaitingTask run", e);
         }
@@ -33,6 +34,6 @@ public class WaitingTask implements Runnable {
 
     @Override
     public String toString() {
-        return String.format("WaitingTask  %1$-3d", id);
+        return String.format("waiting task %1$-3d", id);
     }
 }
