@@ -1,4 +1,8 @@
-package jotka.pl;
+/*
+ * Copyright (c) 2013. agilecoders.pl
+ */
+
+package agilecoders.pl.cyclicBarrier;
 
 import org.slf4j.Logger;
 
