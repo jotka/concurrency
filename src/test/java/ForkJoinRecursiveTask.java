@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * Date: 07.04.13
  * Time: 07:46
  */
-public class FibonacciTest {
+public class ForkJoinRecursiveTask {
     @Test
     public void testWithThreads() {
 

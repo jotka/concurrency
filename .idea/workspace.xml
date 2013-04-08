@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ExchangerTest.java" afterPath="$PROJECT_DIR$/src/test/java/ExchangerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\src\concurrency\src\test\java\FibonacciTest.java" afterPath="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveAction.java" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365322804754" ignored="false" />
+    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365443875945" ignored="false" />
     <file path="/LatchExample.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076353159" ignored="false" />
-    <file path="/fragment.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365322105448" ignored="false" />
+    <file path="/fragment.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365445773740" ignored="false" />
     <file path="/WaitingTask.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076281845" ignored="false" />
     <file path="/TaskPortion.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076497203" ignored="false" />
     <file path="/pom.xml" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365313428031" ignored="false" />
@@ -31,6 +33,9 @@
     <file path="/ExchangerTask.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365322598378" ignored="false" />
     <file path="/ExchangerTest.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365324249379" ignored="false" />
     <file path="/a.dummy" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365323711848" ignored="false" />
+    <file path="/SplitTask.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365446111830" ignored="false" />
+    <file path="/ForkJoinRecursiveAction.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365446090330" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/action1.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365445782669" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,95 +97,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CyclicBarrierExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/CyclicBarrierExample.java">
+      <file leaf-file-name="FibonacciProblem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExchangerTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerTask.java">
+      <file leaf-file-name="FibonacciTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="51" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Renderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Renderer.java">
+      <file leaf-file-name="ForkJoinTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ForkJoinTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="637" column="19" selection-start="24684" selection-end="24684" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExchangerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SplitRecursuveAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinRecursiveTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ForkJoinRecursiveTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinRecursiveAction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ForkJoinRecursiveAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="27" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5545315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/RecursiveAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="22" selection-start="4249" selection-end="4249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/RecursiveTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="22" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExchangerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExchangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="47" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.9292035">
-              <folding>
-                <element signature="e#624#632#0" expanded="true" />
-                <element signature="e#845#863#0" expanded="true" />
-                <element signature="e#1601#1609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallableFutures.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/callable/CallableFutures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="34" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="12" selection-start="7428" selection-end="7428" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Executor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="73" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exchanger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Exchanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="687" column="0" selection-start="28774" selection-end="28774" vertical-scroll-proportion="0.0">
+            <state line="19" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,11 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/findcommonancestor/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/findcommonancestor/MyFindCommonAncestor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/flatten/MyFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/flatten/MyFlattenTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/iteration/MyFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/jotka/pl/callable/CallableFutures.java" />
         <option value="$PROJECT_DIR$/src/main/java/jotka/pl/callable/MyCallable.java" />
         <option value="$PROJECT_DIR$/src/main/java/jotka/pl/cyclicBarrier/Task.java" />
@@ -230,6 +217,11 @@
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExchangerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/action1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveAction.java" />
       </list>
     </option>
   </component>
@@ -281,17 +273,162 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="concurrency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -478,7 +615,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -494,62 +630,36 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../srk/pom.xml" />
     <property name="project.structure.side.proportion" value="0.10491803" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jotka.pl" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExchangerTest">
-    <configuration default="false" name="FibonacciTest" type="TestNG" factoryName="TestNG" temporary="true">
+  <component name="RunManager" selected="TestNG.ForkJoinRecursiveAction">
+    <configuration default="false" name="ForkJoinRecursiveTask" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="concurrency" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
+      <option name="MAIN_CLASS_NAME" value="ForkJoinRecursiveTask" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FibonacciTest.test" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="concurrency" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -668,12 +778,54 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ForkJoinRecursiveAction" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="concurrency" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ForkJoinRecursiveAction" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -701,19 +853,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -802,19 +941,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.LatchExample" />
       <item index="1" class="java.lang.String" itemvalue="Application.CallableFutures" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FibonacciTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FibonacciTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CountDownLatchTest" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.CyclicBarrierTest" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveTask" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CountDownLatchTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CyclicBarrierTest" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveAction" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CyclicBarrierTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CountDownLatchTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FibonacciTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FibonacciTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveAction" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveTask" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CyclicBarrierTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CountDownLatchTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -875,7 +1014,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,14 +1026,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6717391" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32826087" sideWeight="0.803953" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.76521736" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2347826" sideWeight="0.803953" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -965,126 +1104,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_11/jre/lib/javaws.jar!/com/sun/javaws/LaunchDownload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="25" selection-start="7343" selection-end="7343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/time/StopWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="44" selection-start="8361" selection-end="8361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="13" selection-start="5443" selection-end="5443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/RecursiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="25" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="620" column="33" selection-start="24074" selection-end="24074" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="43" selection-start="0" selection-end="1031" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/callable/MyCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/countdownLatch/LatchExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="56" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/countdownLatch/WaitingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="647" selection-end="660" vertical-scroll-proportion="0.42654866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/countdownLatch/TaskPortion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="31" selection-start="775" selection-end="793" vertical-scroll-proportion="0.64955753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/CyclicBarrierExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="606" selection-end="606" vertical-scroll-proportion="0.62283736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Exchanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="687" column="0" selection-start="28774" selection-end="28774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="687" column="0" selection-start="28774" selection-end="28774" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1096,16 +1118,7 @@
     </entry>
     <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="73" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="131" column="73" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerTask.java">
@@ -1117,9 +1130,7 @@
     </entry>
     <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="34" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="87" column="34" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/callable/CallableFutures.java">
@@ -1131,19 +1142,132 @@
     </entry>
     <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="12" selection-start="7428" selection-end="7428" vertical-scroll-proportion="0.0">
+        <state line="213" column="12" selection-start="7428" selection-end="7428" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="25" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/countdownLatch/LatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="50" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/DelayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="13" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="13" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="13" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="12" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="32" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/jar/Pack200.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="22" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/CyclicBarrierExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="22" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/RecursiveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="22" selection-start="4249" selection-end="4249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7.0_11/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="637" column="19" selection-start="24684" selection-end="24684" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExchangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="47" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.9292035">
-          <folding>
-            <element signature="e#624#632#0" expanded="true" />
-            <element signature="e#845#863#0" expanded="true" />
-            <element signature="e#1601#1609#0" expanded="true" />
-          </folding>
+        <state line="19" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ForkJoinRecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ForkJoinRecursiveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="27" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5545315">
+          <folding />
         </state>
       </provider>
     </entry>
