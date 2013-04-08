@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * Date: 07.04.13
  * Time: 07:46
  */
-public class ForkJoinRecursiveTask {
+public class ForkJoinRecursiveTaskTest {
     @Test
     public void testWithThreads() {
 
