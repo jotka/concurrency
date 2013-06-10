@@ -1,11 +1,11 @@
-/*
+package pl.finsys;/*
  * Copyright (c) 2013. agilecoders.pl
  */
 
-import agilecoders.pl.forkJoin.SplitRecursuveAction;
 import com.google.common.base.Stopwatch;
 import org.fest.util.Arrays;
 import org.testng.annotations.Test;
+import pl.finsys.forkJoin.SplitRecursuveAction;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;

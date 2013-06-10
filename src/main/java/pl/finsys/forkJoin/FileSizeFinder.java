@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.forkJoin;
+package pl.finsys.forkJoin;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 08.04.13
  * Time: 21:03

@@ -1,11 +1,11 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.forkJoin;
+package pl.finsys.forkJoin;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 07.04.13
  * Time: 07:44

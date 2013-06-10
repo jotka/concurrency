@@ -1,10 +1,10 @@
-package agilecoders.pl.forkJoin;
+package pl.finsys.forkJoin;
 
 import java.util.Arrays;
 import java.util.concurrent.RecursiveAction;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 08.04.13
  * Time: 19:58

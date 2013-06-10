@@ -1,15 +1,15 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.callable;
+package pl.finsys.callable;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 17.03.13
  * Time: 09:40

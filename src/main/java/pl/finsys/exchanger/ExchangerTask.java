@@ -1,13 +1,13 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.exchanger;
+package pl.finsys.exchanger;
 
 import java.util.concurrent.Exchanger;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 07.04.13
  * Time: 09:48

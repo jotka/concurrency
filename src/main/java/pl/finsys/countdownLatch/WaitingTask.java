@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.countdownLatch;
+package pl.finsys.countdownLatch;
 
 import org.slf4j.Logger;
 

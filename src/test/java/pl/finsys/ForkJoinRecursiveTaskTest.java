@@ -1,11 +1,11 @@
-/*
+package pl.finsys;/*
  * Copyright (c) 2013. agilecoders.pl
  */
 
-import agilecoders.pl.forkJoin.FibonacciProblem;
-import agilecoders.pl.forkJoin.FibonacciTask;
 import com.google.common.base.Stopwatch;
 import org.testng.annotations.Test;
+import pl.finsys.forkJoin.FibonacciProblem;
+import pl.finsys.forkJoin.FibonacciTask;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;

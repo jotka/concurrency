@@ -1,10 +1,10 @@
-/*
+package pl.finsys;/*
  * Copyright (c) 2013. agilecoders.pl
  */
 
-import agilecoders.pl.forkJoin.FileSizeFinder;
 import com.google.common.base.Stopwatch;
 import org.testng.annotations.Test;
+import pl.finsys.forkJoin.FileSizeFinder;
 
 import java.io.File;
 import java.util.concurrent.ForkJoinPool;

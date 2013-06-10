@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
-package agilecoders.pl.cyclicBarrier;
+package pl.finsys.cyclicBarrier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

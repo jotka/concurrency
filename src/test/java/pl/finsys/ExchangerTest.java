@@ -1,9 +1,9 @@
-/*
+package pl.finsys;/*
  * Copyright (c) 2013. agilecoders.pl
  */
 
-import agilecoders.pl.exchanger.ExchangerTask;
 import org.testng.annotations.Test;
+import pl.finsys.exchanger.ExchangerTask;
 
 import java.util.ArrayList;
 import java.util.List;
