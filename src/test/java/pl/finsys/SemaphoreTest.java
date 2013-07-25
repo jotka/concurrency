@@ -1,7 +1,9 @@
-import agilecoders.pl.semaphore.Connection;
-import agilecoders.pl.semaphore.ConnectionPool;
+package pl.finsys;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pl.finsys.semaphore.Connection;
+import pl.finsys.semaphore.ConnectionPool;
 
 import static org.fest.assertions.Fail.fail;
 

@@ -1,4 +1,4 @@
-package agilecoders.pl.lock;
+package pl.finsys.lock;
 
 /**
  * Created with IntelliJ IDEA.

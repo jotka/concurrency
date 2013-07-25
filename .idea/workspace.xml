@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_assert_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_util_1_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_5_12_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/lock/ReentrantLockDemo.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/lock/ReentrantLockDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/semaphore/Connection.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/semaphore/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ReentrantLockDemoTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/SemaphoreTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1370885168625" ignored="false" />
+    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787417926" ignored="false" />
     <file path="/LatchExample.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076353159" ignored="false" />
-    <file path="/fragment.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1370885131803" ignored="false" />
+    <file path="/fragment.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787109332" ignored="false" />
     <file path="/WaitingTask.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076281845" ignored="false" />
     <file path="/TaskPortion.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076497203" ignored="false" />
     <file path="/pom.xml" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365313428031" ignored="false" />
@@ -35,6 +53,7 @@
     <file path="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/action1.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365445782669" ignored="false" />
     <file path="/FileSizeFinder.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365448139471" ignored="false" />
     <file path="/FileSizeFinderTest.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1365448298748" ignored="false" />
+    <file path="/FutureTaskTest.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787384500" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,42 +115,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="19" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1265" column="18" selection-start="49324" selection-end="49324" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="382" column="29" selection-start="17643" selection-end="17643" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Void.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Void.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExchangerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ExchangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,11 +142,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskPortion.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaskPortion.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/countdownLatch/TaskPortion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="209" selection-end="209" vertical-scroll-proportion="0.18800461">
+            <state line="18" column="13" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantLockDemoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCallable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureTaskTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.83762884">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#536#0" expanded="true" />
+                <element signature="e#604#612#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,15 +204,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/countdownLatch/LatchExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallableFutures.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/callable/CallableFutures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,20 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonaciiProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SillyWorker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FibonacciTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/FibonacciProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/countdownLatch/LatchExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/cyclicBarrier/CyclicBarrierExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/exchanger/ExchangerTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ExchangerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/action1.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java" />
@@ -230,6 +239,10 @@
         <option value="$PROJECT_DIR$/src/test/java/FileSizeFinderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/finsys/ForkJoinRecursiveTaskTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/finsys/callable/CallableFutures.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" />
       </list>
     </option>
   </component>
@@ -255,10 +268,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +282,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -304,20 +315,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="concurrency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -343,6 +340,14 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -358,7 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -404,109 +409,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="forkJoin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cyclicBarrier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="countdownLatch" />
+              <option name="myItemId" value="futureTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,32 +447,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,7 +460,7 @@
     <property name="project.structure.proportion" value="0.093412" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../srk/pom.xml" />
@@ -589,7 +470,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -947,22 +828,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.803953" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -970,9 +851,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1046,16 +929,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="41" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FileSizeFinderTest.java">
@@ -1075,101 +954,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/callable/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/jre/lib/rt.jar!/sun/misc/Hashing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="19" selection-start="6737" selection-end="6737" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="430" column="9" selection-start="16254" selection-end="16254" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="867" column="9" selection-start="30090" selection-end="30090" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="339" column="23" selection-start="12394" selection-end="12394" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/OutOfMemoryError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="15" selection-start="9589" selection-end="9589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="32" selection-start="3468" selection-end="3468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="19" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="28" selection-start="6971" selection-end="6971" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1265" column="18" selection-start="49324" selection-end="49324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="382" column="29" selection-start="17643" selection-end="17643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.7.0_21/src.zip!/java/lang/Void.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1211,8 +995,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/countdownLatch/TaskPortion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="209" selection-end="209" vertical-scroll-proportion="0.18800461">
+        <state line="18" column="13" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.83762884">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#536#0" expanded="true" />
+            <element signature="e#604#612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

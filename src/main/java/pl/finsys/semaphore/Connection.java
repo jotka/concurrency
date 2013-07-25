@@ -1,4 +1,4 @@
-package agilecoders.pl.semaphore;
+package pl.finsys.semaphore;
 
 import java.util.concurrent.TimeUnit;
 

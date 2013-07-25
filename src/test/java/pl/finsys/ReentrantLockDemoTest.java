@@ -1,5 +1,7 @@
-import agilecoders.pl.lock.ReentrantLockDemo;
+package pl.finsys;
+
 import org.testng.annotations.Test;
+import pl.finsys.lock.ReentrantLockDemo;
 
 /**
  * Created with IntelliJ IDEA.
