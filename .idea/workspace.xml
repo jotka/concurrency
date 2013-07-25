@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_assert_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_util_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_5_12_1.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/lock/ReentrantLockDemo.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/lock/ReentrantLockDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/semaphore/Connection.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agilecoders/pl/semaphore/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ReentrantLockDemoTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/SemaphoreTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787417926" ignored="false" />
+    <file path="/Dummy.txt" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787512279" ignored="false" />
     <file path="/LatchExample.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076353159" ignored="false" />
     <file path="/fragment.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1374787109332" ignored="false" />
     <file path="/WaitingTask.java" changelist="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" time="1358076281845" ignored="false" />
@@ -115,15 +98,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExchangerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ExchangerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SplitRecursuveAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/SplitRecursuveAction.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -164,7 +138,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,12 +166,19 @@
       <file leaf-file-name="FutureTaskTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.83762884">
+            <state line="51" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.92871284">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#528#536#0" expanded="true" />
-                <element signature="e#604#612#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/action1.java" />
         <option value="$PROJECT_DIR$/src/main/java/agilecoders/pl/forkJoin/SplitRecursuveAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/ForkJoinRecursiveAction.java" />
@@ -242,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/finsys/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java" />
       </list>
     </option>
@@ -487,7 +470,7 @@
       <recent name="pl.finsys" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileSizeFinderTest">
+  <component name="RunManager" selected="TestNG.FutureTaskTest">
     <configuration default="false" name="ForkJoinRecursiveTaskTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="concurrency" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -514,41 +497,6 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExchangerTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="concurrency" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="pl.finsys.ExchangerTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53839" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -624,6 +572,44 @@
       <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FutureTaskTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="concurrency" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="pl.finsys" />
+      <option name="MAIN_CLASS_NAME" value="pl.finsys.FutureTaskTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -761,18 +747,18 @@
       <item index="0" class="java.lang.String" itemvalue="Application.LatchExample" />
       <item index="1" class="java.lang.String" itemvalue="Application.CallableFutures" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveTaskTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveActionTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.FileSizeFinderTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveActionTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.FileSizeFinderTest" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.FutureTaskTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FileSizeFinderTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveActionTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveTaskTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ExchangerTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FutureTaskTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FileSizeFinderTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveActionTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ForkJoinRecursiveTaskTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -839,12 +825,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.803953" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6739394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3260606" sideWeight="0.803953" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -855,7 +842,6 @@
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -903,7 +889,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="package movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="FutureTask" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -922,16 +908,12 @@
     <MESSAGE value="Exchanger and ExecutorService.invokeAll example" />
     <MESSAGE value="ForkJoin examples" />
     <MESSAGE value="package movement" />
+    <MESSAGE value="FutureTask" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" />
@@ -1024,17 +1006,24 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ReentrantLockDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.83762884">
+        <state line="51" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.92871284">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#528#536#0" expanded="true" />
-            <element signature="e#604#612#0" expanded="true" />
           </folding>
         </state>
       </provider>
