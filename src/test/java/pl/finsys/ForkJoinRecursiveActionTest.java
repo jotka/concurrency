@@ -1,5 +1,5 @@
 package pl.finsys;/*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
 import com.google.common.base.Stopwatch;
@@ -11,7 +11,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 07.04.13
  * Time: 07:46

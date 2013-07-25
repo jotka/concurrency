@@ -1,5 +1,5 @@
 package pl.finsys;/*
- * Copyright (c) 2013. agilecoders.pl
+ * Copyright (c) 2013. finsys.pl
  */
 
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ import java.util.concurrent.*;
 import static org.fest.assertions.Assertions.assertThat;
 
 /**
- * (c) 2013 agilecoders.pl
+ * (c) 2013 finsys.pl
  * User: jarek
  * Date: 07.04.13
  * Time: 09:52
