@@ -32,7 +32,6 @@ public class Connection {
         log("released.");
     }
 
-
     private void log(String txt) {
         System.out.println(this + " " + txt);
     }

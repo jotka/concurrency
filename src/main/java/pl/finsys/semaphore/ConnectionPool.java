@@ -18,7 +18,7 @@ public class ConnectionPool {
         System.out.println(String.format("initializing connection pool with %d connections", size));
         semaphore = new Semaphore(size);
 
-        connections = new ArrayList<Connection>(size);
+        connections = new ArrayList<>(size);
         for (int i = 0; i < size; i++) {
             connections.add(new Connection());
         }
@@ -30,8 +30,7 @@ public class ConnectionPool {
     }
 
     private Connection firstAvailable() throws Exception {
-        for (int i = 0; i < connections.size(); i++) {
-            Connection connection = connections.get(i);
+        for (Connection connection : connections) {
             if (connection.isAvailable()) return connection;
         }
         throw new Exception("No available connections.");

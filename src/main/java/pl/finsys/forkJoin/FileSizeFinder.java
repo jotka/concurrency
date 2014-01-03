@@ -35,7 +35,7 @@ public class FileSizeFinder extends RecursiveTask<Long> {
             final File[] children = file.listFiles();
 
             if (children != null) {
-                List<ForkJoinTask<Long>> tasks = new ArrayList<ForkJoinTask<Long>>();
+                List<ForkJoinTask<Long>> tasks = new ArrayList<>();
 
                 for (final File child : children) {
                     if (child.isFile()) {

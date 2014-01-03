@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Consumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Producer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/finsys/WaitNotifyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="be7a0854-5ad5-4d96-ad69-968f2fa86c0b" name="Default" comment="Wait &amp; Notify example">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java" afterPath="$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="concurrency.iws" />
@@ -72,10 +70,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Producer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Producer.java">
+      <file leaf-file-name="ExchangerTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/exchanger/ExchangerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.46363637" vertical-offset="0" max-vertical-offset="880">
+            <state line="15" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/cyclicBarrier/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.6375" vertical-offset="0" max-vertical-offset="880">
               <folding />
             </state>
           </provider>
@@ -84,34 +100,34 @@
       <file leaf-file-name="Consumer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="46" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+            <state line="40" column="39" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/util/Queue.java">
+      <file leaf-file-name="CyclicBarrierExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/cyclicBarrier/CyclicBarrierExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="6" selection-start="7458" selection-end="7458" vertical-scroll-proportion="0.0" vertical-offset="2928" max-vertical-offset="3808">
+            <state line="17" column="13" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaitNotifyTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/WaitNotifyTest.java">
+      <file leaf-file-name="ReentrantLockDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/lock/ReentrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciProblem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciProblem.java">
+      <file leaf-file-name="FileSizeFinder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state line="37" column="63" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -126,37 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyclicBarrierExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/cyclicBarrier/CyclicBarrierExample.java">
+      <file leaf-file-name="FibonacciProblem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="13" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureTaskTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/FutureTaskTest.java">
+      <file leaf-file-name="ConnectionPool.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LatchExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/countdownLatch/LatchExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="901">
+            <state line="27" column="21" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -199,6 +197,9 @@
         <option value="$PROJECT_DIR$/src/test/java/pl/finsys/WaitNotifyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java" />
       </list>
     </option>
   </component>
@@ -384,6 +385,62 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -522,6 +579,10 @@
               <option name="myItemId" value="finsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -621,7 +682,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="exchanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cyclicBarrier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1070,7 +1195,8 @@
     <MESSAGE value="ForkJoin examples" />
     <MESSAGE value="package movement" />
     <MESSAGE value="FutureTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="FutureTask" />
+    <MESSAGE value="Wait &amp; Notify example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wait &amp; Notify example" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1162,13 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/SplitRecursuveAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ForkJoinRecursiveTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1225,23 +1344,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java">
+    <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="193" column="52" selection-start="7301" selection-end="7301" vertical-scroll-proportion="0.0" vertical-offset="2490" max-vertical-offset="3808">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java">
+    <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="52853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/WaitNotifyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="19" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="530" column="61" selection-start="19054" selection-end="19054" vertical-scroll-proportion="0.0" vertical-offset="8751" max-vertical-offset="20366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ExchangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="68" selection-start="674" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/util/concurrent/Exchanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="13" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="11781">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/SplitRecursuveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FileSizeFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="63" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
@@ -1253,44 +1414,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/forkJoin/FibonacciProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/exchanger/ExchangerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/cyclicBarrier/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/cyclicBarrier/CyclicBarrierExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+        <state line="17" column="13" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/ExchangerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/futureTask/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+        <state line="12" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.23181818" vertical-offset="0" max-vertical-offset="880">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/finsys/WaitNotifyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/lock/ReentrantLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$TOOLS_HOME$/oracle/jdk/1.7.0_40/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="6" selection-start="7458" selection-end="7458" vertical-scroll-proportion="0.0" vertical-offset="2928" max-vertical-offset="3808">
+        <state line="27" column="21" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+        <state line="40" column="39" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/waitNotify/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/finsys/semaphore/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.46363637" vertical-offset="0" max-vertical-offset="880">
+        <state line="33" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.6375" vertical-offset="0" max-vertical-offset="880">
           <folding />
         </state>
       </provider>
