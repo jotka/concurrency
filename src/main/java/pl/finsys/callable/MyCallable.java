@@ -20,6 +20,11 @@ public class MyCallable implements Callable<Long> {
         for (long i = 0; i <= 100; i++) {
             sum += i;
         }
+
+        //sleep randomly
+        Thread.sleep((long) (Math.random() * 1000));
+
+        System.out.println("Thread " + Thread.currentThread().getId() + " finished.");
         return sum;
     }
 
